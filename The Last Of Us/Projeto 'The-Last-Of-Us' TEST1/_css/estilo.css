@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( to left, #F2F2F2, #A4A6A4 1%, #515952 5%, #010D00, #0D0D0D, black);
+    background-attachment: fixed;
+    color: white;
+}
+img#logo {
+    position: relative;
+    top: 0px; /*altura da foto*/
+    left: 1500px; /*largura da foto*/
+    height: 350px;
+    
+}
+
+* {
+    
+    margin: 0;
+    padding: 0; /*margem para tudo */
+}
+
+
+div {
+    background-color: grey;
+    margin: 0;
+    
+    padding: 30px;
+    text-align:center;
+    
+
+}
+
+#titulo{
+    color:white;
+}
+ a {
+    
+    text-decoration: none; /*tirar o sublinhado de tudo*/
+}
+
+h1#titulo {
+    
+    text-align:center; /*titulo menu*/
+    font-size: 30px; /*tamanho do titulo menu*/
+    
+    
+    
+    
+}
+
+
+
+div li {
+    list-style:none;
+    display:inline-block;
+    margin-top: 15px;
+    padding: 20px;
+    text-transform: uppercase; /* textos do menu*/
+    width: auto;
+    
+
+
+    
+}
+
+li a { /*escritas do menu*/
+    padding: 10px; 
+    margin: 10px;
+    color: white; /* cor da escrita do menu*/
+
+}
+hgroup {
+    font-size:20pt;
+}
